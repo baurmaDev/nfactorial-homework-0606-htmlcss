@@ -42,3 +42,140 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+.empty3{
+    display: flex;
+    flex:1;
+    flex-direction: row-reverse;
+}
+.red3{
+   width: 80px;
+   justify-content: start;
+    background-color: red;
+    
+}
+.blue3{
+    width: 80px;
+    background-color: blue;
+}
+/* #4 ROW */
+.empty4 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+.red4 {
+    width: 100%;
+    background-color: red;
+}
+.blue4 {
+    width: 80px;
+    background-color: blue;
+}
+/* #5 ROW */
+.wrapper5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+.red5{
+    
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    
+}
+/* #6 ROW */
+.wrapper6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+.blue6{
+    background-color: blue;
+    width: 70px;
+    height: 100%;;
+}
+/* #7 ROW */
+.empty7 {
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+}
+.red7 {
+    width: 80px;
+    justify-content: start;
+    background-color: red;
+}
+.green7{
+    width: 100%;
+    height: 25%;
+    background-color: green;
+}
+
+/* #8 ROW */
+
+.wrapper8{
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.yellow8{
+    background-color: yellow;
+    width: 80px;
+}
+
+
+/* #9 ROW */
+.wrapper9 {
+    display: flex;
+    flex: 5;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.yellow9 {
+    background-color: yellow;
+    width: 230px;
+
+}
+@media only screen and (max-width:768px) {
+    .wrapper8 {
+        display: flex;
+        height: 60px;
+        background-color: green;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .yellow8 {
+        background-color: yellow;
+        width: 45px;
+    }
+
+    .wrapper9 {
+        display: flex;
+        flex: 5;
+        height: 60px;
+        background-color: green;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .yellow9 {
+        background-color: yellow;
+        width: 50px;
+
+    }
+}
